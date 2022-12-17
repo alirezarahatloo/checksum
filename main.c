@@ -21,9 +21,10 @@ int main()
     // {
     //     checkSum ^= cal_checksum[i];  
     // }
+    //printf("checksum is : %d",checkSum);
     ///recursive
     printf("hello world:0x%x\n",checksum(cal_checksum,0));
-    //printf("checksum is : %d",checkSum);
+
     return 0;
 
 }
